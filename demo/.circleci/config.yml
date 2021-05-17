@@ -17,7 +17,7 @@ jobs:
       - checkout
       # Use mvn clean and package as the standard maven build phase
       - run:
-          name: BuildLaConchaDeTuHermana
+          name: Build
           command: |
             cd demo
             mvn -B -DskipTests clean package'
@@ -25,7 +25,9 @@ jobs:
       # Then run your tests!
       - run:
           name: Test
-          command: cd demo mvn test
+          command: |
+            cd demo 
+            mvn test
 
 workflows:
   # Below is the definition of your workflow.
