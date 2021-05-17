@@ -25,8 +25,8 @@ jobs:
       - run:
           name: Test
           command: |
-          cd demo 
-          mvn test
+            cd demo 
+            mvn test
 
 workflows:
   # Below is the definition of your workflow.
