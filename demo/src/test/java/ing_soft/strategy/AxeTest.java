@@ -8,6 +8,6 @@ public class AxeTest{
     @Test
     public void useWeapon() {
         WeaponBehavior axe = new Axe();
-        assertEquals("usingg a Axe", axe.useWeapon());
+        assertEquals("using a Axe", axe.useWeapon());
 	}
 }
