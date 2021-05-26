@@ -8,4 +8,8 @@ public class King extends Character {
 	public void display() {
 		System.out.println("I'm fighting with a knife");
 	}
+
+	public String prueba(){
+		return "hola";
+	}
 }

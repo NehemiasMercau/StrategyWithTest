@@ -7,7 +7,7 @@ public class Game {
 		Queen queenCharacter = new Queen();
 	
 		
-		kingCharacter.setWeapon(new Knife());
+		
 		kingCharacter.fight();
 		kingCharacter.setWeapon(new Axe());
 		kingCharacter.fight();

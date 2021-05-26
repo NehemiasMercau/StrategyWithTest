@@ -24,7 +24,7 @@ jobs:
           
       # Then run your tests!
       - run:
-          name: Test
+          name: Fabio
           command: |
             cd demo 
             mvn test
